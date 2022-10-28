@@ -39,5 +39,4 @@ function mountainInfo(item) {
 
 document.addEventListener("DOMContentLoaded",()=>{
     mountainsArray.forEach( m => document.body.appendChild(mountainCard(m)));
-
 });
